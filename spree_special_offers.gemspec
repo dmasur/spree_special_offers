@@ -1,15 +1,15 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_special_offers'
-  s.version     = '1.0.0'
-  s.summary     = 'Add gem summary here'
+  s.version     = '1.1.0'
+  s.summary     = 'Adds old prices to variants'
   #s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 1.8.7'
 
-  # s.author            = 'David Heinemeier Hansson'
-  # s.email             = 'david@loudthinking.com'
-  # s.homepage          = 'http://www.rubyonrails.org'
-  # s.rubyforge_project = 'actionmailer'
+  s.author            = 'Dominik Masur'
+  s.email             = 'dominik.masur@googlemail.com'
+#  s.homepage          = 'http://www.rubyonrails.org'
+#  s.rubyforge_project = 'actionmailer'
 
   s.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*']
   s.require_path = 'lib'
