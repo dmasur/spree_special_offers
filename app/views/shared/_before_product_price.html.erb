@@ -1,0 +1,8 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag 'special_offers.css' %>
+<% end %>
+<p class="prices">
+  <%= t("old_price") %>
+  <br />
+  <span class='old_price price selling'><%= format_price(@product.old_price) %></span>
+</p>
