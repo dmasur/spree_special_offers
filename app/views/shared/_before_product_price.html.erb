@@ -1,8 +1,10 @@
-<% content_for :head do %>
-  <%= stylesheet_link_tag 'special_offers.css' %>
+<% if @product.old_price > 0 %>
+  <% content_for :head do %>
+    <%= stylesheet_link_tag 'special_offers.css' %>
+  <% end %>
+  <p class="prices">
+    <%= t("old_price") %>
+    <br />
+    <%= product_old_price @product %>
+  </p>
 <% end %>
-<p class="prices">
-  <%= t("old_price") %>
-  <br />
-  <%= product_old_price @product %>
-</p>
