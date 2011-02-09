@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_special_offers'
-  s.version     = '1.1.1'
+  s.version     = '1.1.2'
   s.summary     = 'Adds old prices to variants'
   #s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 1.8.7'

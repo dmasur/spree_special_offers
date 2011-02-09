@@ -1,4 +1,4 @@
-<% if @product.old_price > 0 %>
+<% if @product.old_price && @product.old_price > 0 %>
   <% content_for :head do %>
     <%= stylesheet_link_tag 'special_offers.css' %>
   <% end %>
