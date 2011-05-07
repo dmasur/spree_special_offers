@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_special_offers'
-  s.version     = '1.1.3'
+  s.version     = '1.1.4'
   s.summary     = 'Adds old prices to variants'
   #s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 1.8.7'
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.author            = 'Dominik Masur'
   s.email             = 'dominik.masur@googlemail.com'
 
-  s.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*', 'db/**/*', 'config/**/*']
+  s.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*', 'db/**/*', 'config/**/*', 'public/**/*']
   s.require_path = 'lib'
   s.requirements << 'none'
 
